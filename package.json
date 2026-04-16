@@ -9,10 +9,12 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.32.3",
     "@tailwindcss/vite": "^4.2.2",
     "@vituum/vite-plugin-posthtml": "^2.0.1",
     "vite": "^8.0.8",
-    "vituum": "^2.0.1"
+    "vituum": "^2.0.1",
+    "wrangler": "^4.83.0"
   },
   "dependencies": {
     "daisyui": "^5.5.19",
