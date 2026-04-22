@@ -11,3 +11,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Merienda', cursive;
 }
+
+#hr {
+  background-color: oklch(91.88% 0.036 85.41);
+}
