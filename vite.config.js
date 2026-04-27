@@ -9,6 +9,13 @@ export default {
         vituum(),
         posthtml({root: './src'}),
         tailwindcss(),
-        cloudflare()
+        cloudflare({
+            config: {
+                routes: [
+                    { pattern: 'quickset.cyberchase.co', custom_domain: true }
+                ],
+                preview_urls: true
+            }
+        })
     ]
 }
