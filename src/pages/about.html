@@ -1,48 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/styles/main.css">
-    <div class="navbar bg-base-100 shadow-sm">
-      <div class="navbar-start">
-        <div class="dropdown">
-          <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /> </svg>
-          </div>
-          <ul
-            tabindex="-1"
-            class="menu menu-sm dropdown-content bg-base-950 rounded-box z-1 mt-3 w-52 p-2 shadow">
-            <li><a href="index.html">Homepage</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="product.html">Product</a></li>
-            <li><a href="dev.html">Developer</a></li>
-            <li><a href="com.html">Community</a></li>
-            <li><a href="contact-me.html">Contact</a></li>
-          </ul>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/src/styles/main.css">
+  <div class="navbar bg-base-100 shadow-sm">
+    <div class="navbar-start">
+      <div class="dropdown">
+        <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+          </svg>
         </div>
-      </div>
-      <div class="navbar-center">
-        <a class="btn btn-ghost text-xl">QuickSet</a>
-      </div>
-      <div class="navbar-end">
-        <button class="btn btn-ghost btn-circle">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /> </svg>
-        </button>
-        <button class="btn btn-ghost btn-circle">
-          <div class="indicator">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /> </svg>
-            <span class="badge badge-xs badge-primary indicator-item"></span>
-          </div>
-        </button>
+        <ul tabindex="-1" class="menu menu-sm dropdown-content bg-base-950 rounded-box z-1 mt-3 w-52 p-2 shadow">
+          <li><a href="index.html">Homepage</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="product.html">Product</a></li>
+          <li><a href="dev.html">Developer</a></li>
+          <li><a href="com.html">Community</a></li>
+          <li><a href="contact-me.html">Contact</a></li>
+        </ul>
       </div>
     </div>
+    <div class="navbar-center">
+      <a class="btn btn-ghost text-xl">QuickSet</a>
+    </div>
+    <div class="navbar-end">
+      <button class="btn btn-ghost btn-circle">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+      </button>
+      <button class="btn btn-ghost btn-circle">
+        <div class="indicator">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+          </svg>
+          <span class="badge badge-xs badge-primary indicator-item"></span>
+        </div>
+      </button>
+    </div>
+  </div>
 
-    <title>Quickset|About</title>
+  <title>Quickset|About</title>
 </head>
-<body id="hr">
-    <h1 class="text-center text-5xl font-bold my-12 to-black  decoration-primary decoration-4 underline-offset-8">About Us</h1>
 
+<body class="bg-black">
+  <h1 class="text-center text-5xl font-bold my-12 text-white  decoration-primary decoration-4 underline-offset-8">About
+    Us</h1>
+
+
+  <div class="hero bg-blue-100 m-4 rounded-2xl w-auto ">
+    <div class="hero-content flex-col lg:flex-row">
+      <img src="/src/assets/quickset.png" class="max-w-xl rounded-lg shadow-2xl" />
+      <div>
+        <h1 class="text-5xl font-bold">Whats Quickset?!</h1>
+        <p class="py-6">
+          Hello and welcome to Quickset. Our website is designed to help aspiring web and game developers learn how to effectively use databases in their applications and games. We provide clear, beginner-friendly tutorials, real-world examples, and practical tips to make complex concepts easier to understand. Whether you're just starting out or looking to improve your skills, Quickset gives you the tools to build efficient, data-driven projects.
+        </p>
 
     <div class="hero bg-blue-100 m-4 rounded-2xl w-auto ">
         <div class="hero-content flex-col lg:flex-row">
@@ -59,14 +77,19 @@
           </div>
         </div>
       </div>
-    <div class="hero bg-blue-200 m-4 rounded-2xl w-auto">
+    </div>
+  </div>
+  <div class="hero bg-blue-200 m-4 rounded-2xl w-auto">
     <div class="hero-content text-center">
       <div class="max-w-md">
         <h1 class="text-5xl font-bold">What started it all!!</h1>
         <p class="py-6">
-            Quickset was started by a group of friends who wanted to create a platform that would make it easier for developers to learn and use databases in their projects. We saw a gap in the market for a comprehensive resource that would provide tutorials, guides, and tools for working with databases, and we decided to fill that gap with Quickset.
+          Quickset was started by a group of friends who wanted to create a platform that would make it easier for
+          developers to learn and use databases in their projects. We saw a gap in the market for a comprehensive
+          resource that would provide tutorials, guides, and tools for working with databases, and we decided to fill
+          that gap with Quickset.
         </p>
-        
+
       </div>
     </div>
   </div>
@@ -90,7 +113,6 @@
         </div>
       </div>
     </div>
-  </div>
 
   <div class="card bg-base-100 w-96 shadow-sm">
     <figure>
@@ -110,7 +132,6 @@
         </div>
       </div>
     </div>
-  </div>
 
   <div class="card bg-base-100 w-96 shadow-sm">
     <figure>
@@ -131,5 +152,5 @@
         </div>
       </div>
 </body>
-</html>
 
+</html>
