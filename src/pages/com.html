@@ -42,44 +42,141 @@
 </head>
 <body class="bg-gray-100 text-gray-800">
 
-  <!-- Header -->
-  <header class="bg-blue-600 text-white p-4 text-center">
-    <h1 class="text-2xl font-bold">QuickSet Community</h1>
-  </header>
+ 
 
-  <!-- Main -->
-  <main class="max-w-2xl mx-auto p-6">
+</footer><!-- HEADER -->
+<header class="bg-blue-900 text-white rounded-b-2xl p-6 text-center">
+  <h1 class="text-3xl font-bold">
+    QuickSet Community
+  </h1>
 
-    <!-- Intro -->
-    <div class="bg-white p-4 rounded-lg shadow mb-6 text-center">
-      <h2 class="text-xl font-semibold">Welcome 👋</h2>
-      <p class="text-gray-600 mt-2">Join discussions and share ideas.</p>
-      <button class="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
-        New Post
-      </button>
-    </div>
+  <p class="mt-2 text-blue-100">
+    Join discussions and share ideas.
+  </p>
+</header>
 
-    <!-- Posts -->
-    <div class="space-y-4">
+<!-- TOP BAR -->
+<div class="max-w-3xl mx-auto mt-6 flex flex-col md:flex-row gap-3 justify-between">
 
-      <div class="bg-white p-4 rounded-lg shadow">
-        <h3 class="font-bold">Welcome to the community!</h3>
-        <p class="text-gray-600 text-sm">Posted by Admin</p>
+  <!-- Search -->
+  <input
+    type="text"
+    placeholder="Search posts..."
+    class="border border-gray-300 rounded-lg px-4 py-2 w-full md:w-1/2"
+  />
+
+  <!-- New Post -->
+  <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+    New Post
+  </button>
+
+</div>
+
+<!-- CATEGORY FILTERS -->
+<div class="max-w-3xl mx-auto mt-4 flex gap-2 flex-wrap">
+
+  <button class="bg-blue-600 text-white px-3 py-1 rounded-full text-sm">
+    All
+  </button>
+
+  <button class="bg-gray-200 px-3 py-1 rounded-full text-sm">
+    Support
+  </button>
+
+  <button class="bg-gray-200 px-3 py-1 rounded-full text-sm">
+    Features
+  </button>
+
+  <button class="bg-gray-200 px-3 py-1 rounded-full text-sm">
+    Updates
+  </button>
+
+</div>
+
+<!-- POSTS -->
+<main class="max-w-3xl mx-auto mt-6 space-y-4">
+
+  <!-- Post -->
+  <div class="bg-white p-4 rounded-lg shadow">
+
+    <div class="flex gap-3">
+
+      <!-- Avatar -->
+      <div class="w-10 h-10 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center font-bold">
+        A
       </div>
 
-      <div class="bg-white p-4 rounded-lg shadow">
-        <h3 class="font-bold">Any feature ideas?</h3>
-        <p class="text-gray-600 text-sm">Posted by User</p>
+      <!-- Content -->
+      <div class="flex-1">
+
+        <div class="flex items-center gap-2 text-sm text-gray-500">
+          <span>Admin</span>
+          <span>•</span>
+          <span>May 7, 2026</span>
+          <span class="bg-blue-100 text-blue-700 px-2 py-0.5 rounded text-xs">
+            Update
+          </span>
+        </div>
+
+        <h2 class="font-bold text-lg mt-1">
+          Welcome to the community!
+        </h2>
+
+        <p class="text-sm text-gray-500 mt-2">
+          💬 24 replies
+        </p>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Post -->
+  <div class="bg-white p-4 rounded-lg shadow">
+
+    <div class="flex gap-3">
+
+      <!-- Avatar -->
+      <div class="w-10 h-10 rounded-full bg-purple-100 text-purple-700 flex items-center justify-center font-bold">
+        U
       </div>
 
+      <!-- Content -->
+      <div class="flex-1">
+
+        <div class="flex items-center gap-2 text-sm text-gray-500">
+          <span>User</span>
+          <span>•</span>
+          <span>May 5, 2026</span>
+          <span class="bg-purple-100 text-purple-700 px-2 py-0.5 rounded text-xs">
+            Feature
+          </span>
+        </div>
+
+        <h2 class="font-bold text-lg mt-1">
+          Any feature ideas?
+        </h2>
+
+        <p class="text-sm text-gray-500 mt-2">
+          💬 12 replies
+        </p>
+
+      </div>
     </div>
+  </div>
 
-  </main>
+</main>
 
-  <!-- Footer -->
-  <footer class="text-center text-gray-500 p-4">
-    quickset.cyberchase.co
-  </footer>
+<!-- FOOTER -->
+<footer class="bg-gray-900 text-gray-300 mt-10 p-6 text-center">
 
-</body>
-</html>
+  <h3 class="text-white font-semibold text-lg">
+    QuickSet
+  </h3>
+
+  <p class="mt-2 text-sm text-gray-400">
+  
+ 
+  
+  </p>
+
+</footer>
